@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 class AppBorderSides {
+  AppBorderSides._();
 
 {[ let brand = ds.currentBrand() /]}
 {[ const borderTokensTree = ds.tokenGroupTreeByType("Border", brand.id) /]}
@@ -20,5 +21,4 @@ class AppBorderSides {
 
   {[/]}
 {[/]}
-  AppBorderSides._();
 }
