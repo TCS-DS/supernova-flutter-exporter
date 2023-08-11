@@ -3,7 +3,7 @@
     "name": "Flutter Token Exporter",
     "description": "Flutter token and style exporter",
     "source_dir": "src",
-    "version": "1.2.6",
+    "version": "1.0.0",
     "tags": [
         "Flutter",
         "Dart",
@@ -12,7 +12,7 @@
     ],
     "author": "Digital Services Mobile Team",
     "organization": "TCS",
-    "homepage": "https://tcs.ch",
+    "homepage": "https://www.tcs.ch",
     "usesBrands": true,
     "config": {
         "output": "output.json",
