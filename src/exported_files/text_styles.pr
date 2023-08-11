@@ -55,9 +55,6 @@ class AppTextStyles {
     fontSize: {[ inject "export_measure_value" context typographyToken.value.fontSize /]},
     decoration: TextDecoration.{{ decoration }},
     letterSpacing: {{ letterSpacing.toString() }},
-    {[ if (lineHeight != "null") ]}
-    height: {{ lineHeight.toString() }},
-    {[/]}
     leadingDistribution: TextLeadingDistribution.even,
   );
 
